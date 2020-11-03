@@ -8,7 +8,7 @@ def openFileAndRemapRefs():
     filename = cmds.fileDialog2(fileFilter=multipleFilters, dialogStyle=2, fileMode=1)
 
     # Open file with no reference loaded
-    cmds.file( filename[0], open=True, force=True );
+    cmds.file( filename[0], open=True, force=True, iv=True  );
     
     userDirectory = cmds.workspace(q=True, rd=True)
 
