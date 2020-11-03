@@ -1,0 +1,18 @@
+How to install:-
+
+Copy homeRepath.py to Documents/maya/2018/scripts
+
+Open maya 
+
+Open maya script editor new python tab
+
+Paste:-
+
+import homeRepath
+homeRepath.openFileAndRemapRefs()
+
+
+Highlight and drag to shelf to make button. Right click and click folder icon next to icon space.
+Browse to Repath_external_Icon file.
+
+Now you can repath your scene references at the click of a button.
